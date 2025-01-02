@@ -49,12 +49,22 @@ const Navbar = () => {
       <Container>
         <div className="flex justify-between h-16">
           <div className="flex items-center">
-            <GraduationCap className={`h-8 w-8 ${isScrolled ? 'text-red-600' : 'text-white'}`} />
+            {/* <GraduationCap className={`h-8 w-8 ${isScrolled ? 'text-red-600' : 'text-white'}`} />
             <span className={`ml-2 text-xl font-bold transition-colors ${
               isScrolled ? 'text-gray-900' : 'text-white'
             }`}>
               IKasi Tutor
-            </span>
+            </span> */}
+              <img 
+                src="ikasi-logo.png" 
+                alt="ikasi logo" 
+                className={`
+                  h-12 w-auto 
+                  transition-all duration-300 ease-in-out 
+                  ${isScrolled ? 'opacity-90 scale-95' : 'opacity-100 scale-100'}
+                  hover:scale-105 hover:opacity-80
+                `} 
+              />
           </div>
           
           <div className="hidden md:flex items-center space-x-4">
