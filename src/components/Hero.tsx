@@ -8,7 +8,7 @@ const Hero = () => {
     <div className="relative min-h-screen pt-16"> {/* Added pt-16 for navbar spacing */}
       <div className="absolute inset-0">
         <img
-          src="/public/hero.jpg"
+          src="/hero.jpg"
           alt="Students learning"
           className="w-full h-full object-cover"
         />
