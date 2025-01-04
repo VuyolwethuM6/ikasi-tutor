@@ -32,10 +32,10 @@ const Navbar = () => {
     { name: 'Home', href: '/' },
     { name: 'About', href: '/about' },
     { name: 'Services', href: '/services' },
-    { name: 'Impact', href: '/impact' },
-    { name: 'Join Us', href: '/join' },
-    { name: 'Blog', href: '/blog' },
-    { name: 'Contact', href: '/contact' },
+    { name: 'Gallery', href: '/gallery' },
+    // { name: 'Join Us', href: '/join' },
+    // { name: 'Blog', href: '/blog' },
+    // { name: 'Contact', href: '/contact' },
   ];
 
   return (
@@ -85,7 +85,7 @@ const Navbar = () => {
               variant={isScrolled ? "primary" : "outline"} 
               className="px-4 py-2 text-sm"
             >
-              Get Started
+              Get Study Guide
             </Button>
           </div>
 
@@ -136,7 +136,7 @@ const Navbar = () => {
           ))}
           <div className="pt-4 px-3">
             <Button variant="primary" className="w-full text-sm">
-              Get Started
+              Get Study Guide
             </Button>
           </div>
         </div>
