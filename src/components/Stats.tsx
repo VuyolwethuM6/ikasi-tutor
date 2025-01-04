@@ -6,7 +6,7 @@ const stats = [
   {
     id: 1,
     name: 'Students Helped',
-    value: '10,000+',
+    value: '1000+',
     icon: Users,
   },
   {
@@ -18,7 +18,7 @@ const stats = [
   {
     id: 3,
     name: 'Subjects Covered',
-    value: '2',
+    value: '4',
     icon: BookOpen,
   },
 ];
