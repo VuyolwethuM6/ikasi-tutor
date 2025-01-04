@@ -78,7 +78,7 @@ const Newsletter = () => {
               <Button 
                 onClick={handleCall}
                 variant="outline" 
-                className="border-blue-600 text-blue-600 hover:bg-blue-50 flex items-center gap-2"
+                className="border-red-600 text-black hover:bg-red-50 flex items-center gap-2"
               >
                 <Phone className="w-5 h-5" />
                 Call to Order
