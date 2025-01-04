@@ -26,9 +26,14 @@ const testimonials = [
 
 const Testimonials = () => {
   return (
-    <div className="py-16 bg-white">
+    <div className="py-16 bg-gray-50">
       <Container>
-        <SectionTitle>Student Success Stories</SectionTitle>
+        <div className="text-center mb-12">
+          <SectionTitle>Student Success Stories</SectionTitle>
+          <p className="text-gray-600 max-w-2xl mx-auto">
+            Hear from our students and parents about their transformative learning experiences with IKasi Tutor.
+          </p>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
             <TestimonialCard key={index} {...testimonial} />
