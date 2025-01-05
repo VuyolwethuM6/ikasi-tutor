@@ -7,7 +7,7 @@ const contactInfo = [
   {
     icon: MapPin,
     title: 'Visit Us',
-    content: '123 Main Road, Khayelitsha, Cape Town',
+    content: 'Cwango Cresent Road, Philippi, South Africa',
     action: () => window.open('https://maps.google.com?q=123+Main+Road,+Khayelitsha,+Cape+Town', '_blank')
   },
   {
