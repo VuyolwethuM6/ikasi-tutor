@@ -13,19 +13,19 @@ const contactInfo = [
   {
     icon: Phone,
     title: 'Call Us',
-    content: '+27 12 345 6789',
-    action: () => window.location.href = 'tel:+27123456789'
+    content: '+27 60 282 2069',
+    action: () => window.location.href = 'tel:+27602822069'
   },
   {
     icon: MessageCircle,
     title: 'WhatsApp',
-    content: '+27 12 345 6789',
-    action: () => window.open('https://wa.me/27123456789', '_blank')
+    content: '+27602 822069',
+    action: () => window.open('https://wa.me/27602822069', '_blank')
   },
   {
     icon: Facebook,
     title: 'Facebook',
-    content: 'IKasi Tutor',
+    content: 'IKasi Tutor Movement',
     action: () => window.open('https://facebook.com/ikasitutor', '_blank')
   },
   {
